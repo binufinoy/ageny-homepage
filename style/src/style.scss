@@ -1,0 +1,25 @@
+h1,h2,h3{
+    font-family: 'Fraunces',Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+h1{
+    
+font-size: clamp(3.125rem, 2.155172413793103rem + 4.137931034482759vw, 5rem);
+}
+h2{
+   
+   
+    font-size: clamp(2rem, 1.2241379310344829rem + 3.3103448275862064vw, 3.5rem);
+}
+h3{
+    
+font-size: clamp(1.75rem, 1.6206896551724137rem + 0.5517241379310345vw, 2rem);
+}
+p{
+   
+font-size: clamp(1rem, 0.9353448275862069rem + 0.27586206896551724vw, 1.125rem);
+}
+.wrapper{
+    max-width: 1100px;
+}

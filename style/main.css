@@ -1,3 +1,27 @@
+h1, h2, h3 {
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
 
+h1 {
+  font-size: clamp(3.125rem, 2.1551724138rem + 4.1379310345vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 1.224137931rem + 3.3103448276vw, 3.5rem);
+}
+
+h3 {
+  font-size: clamp(1.75rem, 1.6206896552rem + 0.5517241379vw, 2rem);
+}
+
+p {
+  font-size: clamp(1rem, 0.9353448276rem + 0.275862069vw, 1.125rem);
+}
+
+.wrapper {
+  max-width: 1100px;
+}
 
 /*# sourceMappingURL=main.css.map */
